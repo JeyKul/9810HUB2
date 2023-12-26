@@ -1,6 +1,6 @@
 async function fetchRoms() {
     try {
-        const response = await fetch('./roms.json');
+        const response = await fetch('scripts/roms.json');
         return await response.json();
     } catch (error) {
         console.error('Error fetching ROMs:', error);
