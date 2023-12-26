@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+}
+
+.gradient-background {
+  height: 100vh;
+  background: linear-gradient(to bottom left, #3a0c3adc, #460d469b, #887040, #5b3221 );
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button1{
+  background-color: #d8e2ff;
+  border: none;
+  border-radius: 40px;
+  color: #000000;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 0 10px;
+}
+
+.button2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d8e2ff;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 15px;
+  margin: 10px;
+  position: relative;
+  top: 80%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+#logocenter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  width: 400px
+}
+
+#fileList {
+  margin-top: 100vh; /* Adjust this value to control the space between the header and the dynamic content */
+}
+
+.fileList {
+  text-align: left;
+}
+
+.fileItem {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#modeSwitch {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
